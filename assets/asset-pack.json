@@ -1,0 +1,68 @@
+{
+    "section1": {
+        "files": [
+            {
+                "url": "assets/images/back_red_0.png",
+                "type": "image",
+                "key": "back_red_0"
+            },
+            {
+                "url": "assets/images/back_red_1.png",
+                "type": "image",
+                "key": "back_red_1"
+            },
+            {
+                "url": "assets/images/background.png",
+                "type": "image",
+                "key": "background"
+            },
+            {
+                "url": "src/prefabs/BaseCard.js",
+                "type": "script",
+                "key": "BaseCard"
+            },
+            {
+                "url": "assets/images/button.png",
+                "type": "image",
+                "key": "button"
+            },
+            {
+                "url": "src/prefabs/Card.js",
+                "type": "script",
+                "key": "Card"
+            },
+            {
+                "url": "assets/images/card_base-2.png",
+                "type": "image",
+                "key": "card_base-2"
+            },
+            {
+                "url": "src/scripts/GameManager.js",
+                "type": "script",
+                "key": "GameManager"
+            },
+            {
+                "url": "src/scripts/InputManager.js",
+                "type": "script",
+                "key": "InputManager"
+            },
+            {
+                "url": "assets/images/redeal.png",
+                "type": "image",
+                "key": "redeal"
+            },
+            {
+                "url": "src/scenes/Solitaire.js",
+                "type": "sceneFile",
+                "key": "Solitaire"
+            }
+        ]
+    },
+    "meta": {
+        "app": "Phaser Editor 2D - Asset Pack Editor",
+        "contentType": "phasereditor2d.pack.core.AssetContentType",
+        "url": "https://phasereditor2d.com",
+        "version": 2,
+        "showAllFilesInBlocks": false
+    }
+}

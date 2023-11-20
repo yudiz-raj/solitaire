@@ -1,0 +1,97 @@
+{
+    "id": "adf91fd7-0a01-41da-9ba6-855bf3678404",
+    "sceneType": "PREFAB",
+    "settings": {
+        "preloadMethodName": "",
+        "preloadPackFiles": [],
+        "createMethodName": "",
+        "borderWidth": 1920,
+        "borderHeight": 1080
+    },
+    "displayList": [
+        {
+            "type": "Container",
+            "id": "92d39a8e-19b4-4418-abff-06dd544e4651",
+            "label": "container_2",
+            "x": -2,
+            "list": [
+                {
+                    "type": "Container",
+                    "id": "10544d4e-6223-458e-95bd-d836c7f4af5d",
+                    "label": "container_cards",
+                    "scope": "CLASS",
+                    "list": [
+                        {
+                            "type": "Image",
+                            "id": "1ce6ec5f-a816-466f-b8a7-65de34e41688",
+                            "label": "club_11",
+                            "texture": {
+                                "key": "club_11"
+                            },
+                            "x": -128,
+                            "y": 66,
+                            "scaleX": 0.45,
+                            "scaleY": 0.45,
+                            "angle": -16
+                        },
+                        {
+                            "type": "Image",
+                            "id": "9e36aa93-5721-43d7-991b-cc2cdfc6c5af",
+                            "label": "heart_6",
+                            "texture": {
+                                "key": "heart_6"
+                            },
+                            "x": -69,
+                            "y": 45,
+                            "scaleX": 0.37,
+                            "scaleY": 0.37
+                        },
+                        {
+                            "type": "Image",
+                            "id": "5cfa8cc6-6202-443d-8fd5-7f8346931902",
+                            "label": "spade_1",
+                            "texture": {
+                                "key": "spade_1"
+                            },
+                            "x": 7,
+                            "y": 71,
+                            "scaleX": 0.37,
+                            "scaleY": 0.37,
+                            "angle": 10
+                        },
+                        {
+                            "type": "Image",
+                            "id": "fe8ee464-d749-47b9-a02d-ea03941f0884",
+                            "label": "diamond_13",
+                            "texture": {
+                                "key": "diamond_13"
+                            },
+                            "x": 96,
+                            "y": 92,
+                            "scaleX": 0.37,
+                            "scaleY": 0.37,
+                            "angle": 17
+                        }
+                    ]
+                },
+                {
+                    "type": "Image",
+                    "id": "9b3ed4d0-ac98-4cee-872e-09f932d43fa2",
+                    "label": "saga_logo",
+                    "texture": {
+                        "key": "saga-logo"
+                    },
+                    "x": 1,
+                    "y": 101
+                }
+            ]
+        }
+    ],
+    "plainObjects": [],
+    "meta": {
+        "app": "Phaser Editor 2D - Scene Editor",
+        "url": "https://phasereditor2d.com",
+        "contentType": "phasereditor2d.core.scene.SceneContentType",
+        "version": 4
+    }
+}

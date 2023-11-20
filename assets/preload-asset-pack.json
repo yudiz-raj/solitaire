@@ -1,0 +1,308 @@
+{
+    "section1": {
+        "files": [
+            {
+                "url": "assets/images/club_1.png",
+                "type": "image",
+                "key": "club_1"
+            },
+            {
+                "url": "assets/images/club_10.png",
+                "type": "image",
+                "key": "club_10"
+            },
+            {
+                "url": "assets/images/club_11.png",
+                "type": "image",
+                "key": "club_11"
+            },
+            {
+                "url": "assets/images/club_12.png",
+                "type": "image",
+                "key": "club_12"
+            },
+            {
+                "url": "assets/images/club_13.png",
+                "type": "image",
+                "key": "club_13"
+            },
+            {
+                "url": "assets/images/club_2.png",
+                "type": "image",
+                "key": "club_2"
+            },
+            {
+                "url": "assets/images/club_3.png",
+                "type": "image",
+                "key": "club_3"
+            },
+            {
+                "url": "assets/images/club_4.png",
+                "type": "image",
+                "key": "club_4"
+            },
+            {
+                "url": "assets/images/club_5.png",
+                "type": "image",
+                "key": "club_5"
+            },
+            {
+                "url": "assets/images/club_6.png",
+                "type": "image",
+                "key": "club_6"
+            },
+            {
+                "url": "assets/images/club_7.png",
+                "type": "image",
+                "key": "club_7"
+            },
+            {
+                "url": "assets/images/club_8.png",
+                "type": "image",
+                "key": "club_8"
+            },
+            {
+                "url": "assets/images/club_9.png",
+                "type": "image",
+                "key": "club_9"
+            },
+            {
+                "url": "assets/images/diamond_1.png",
+                "type": "image",
+                "key": "diamond_1"
+            },
+            {
+                "url": "assets/images/diamond_10.png",
+                "type": "image",
+                "key": "diamond_10"
+            },
+            {
+                "url": "assets/images/diamond_11.png",
+                "type": "image",
+                "key": "diamond_11"
+            },
+            {
+                "url": "assets/images/diamond_12.png",
+                "type": "image",
+                "key": "diamond_12"
+            },
+            {
+                "url": "assets/images/diamond_13.png",
+                "type": "image",
+                "key": "diamond_13"
+            },
+            {
+                "url": "assets/images/diamond_2.png",
+                "type": "image",
+                "key": "diamond_2"
+            },
+            {
+                "url": "assets/images/diamond_3.png",
+                "type": "image",
+                "key": "diamond_3"
+            },
+            {
+                "url": "assets/images/diamond_4.png",
+                "type": "image",
+                "key": "diamond_4"
+            },
+            {
+                "url": "assets/images/diamond_5.png",
+                "type": "image",
+                "key": "diamond_5"
+            },
+            {
+                "url": "assets/images/diamond_6.png",
+                "type": "image",
+                "key": "diamond_6"
+            },
+            {
+                "url": "assets/images/diamond_7.png",
+                "type": "image",
+                "key": "diamond_7"
+            },
+            {
+                "url": "assets/images/diamond_8.png",
+                "type": "image",
+                "key": "diamond_8"
+            },
+            {
+                "url": "assets/images/diamond_9.png",
+                "type": "image",
+                "key": "diamond_9"
+            },
+            {
+                "url": "assets/images/heart_1.png",
+                "type": "image",
+                "key": "heart_1"
+            },
+            {
+                "url": "assets/images/heart_10.png",
+                "type": "image",
+                "key": "heart_10"
+            },
+            {
+                "url": "assets/images/heart_11.png",
+                "type": "image",
+                "key": "heart_11"
+            },
+            {
+                "url": "assets/images/heart_12.png",
+                "type": "image",
+                "key": "heart_12"
+            },
+            {
+                "url": "assets/images/heart_13.png",
+                "type": "image",
+                "key": "heart_13"
+            },
+            {
+                "url": "assets/images/heart_2.png",
+                "type": "image",
+                "key": "heart_2"
+            },
+            {
+                "url": "assets/images/heart_3.png",
+                "type": "image",
+                "key": "heart_3"
+            },
+            {
+                "url": "assets/images/heart_4.png",
+                "type": "image",
+                "key": "heart_4"
+            },
+            {
+                "url": "assets/images/heart_5.png",
+                "type": "image",
+                "key": "heart_5"
+            },
+            {
+                "url": "assets/images/heart_6.png",
+                "type": "image",
+                "key": "heart_6"
+            },
+            {
+                "url": "assets/images/heart_7.png",
+                "type": "image",
+                "key": "heart_7"
+            },
+            {
+                "url": "assets/images/heart_8.png",
+                "type": "image",
+                "key": "heart_8"
+            },
+            {
+                "url": "assets/images/heart_9.png",
+                "type": "image",
+                "key": "heart_9"
+            },
+            {
+                "url": "assets/images/innerBar.png",
+                "type": "image",
+                "key": "innerBar"
+            },
+            {
+                "url": "assets/images/loading.png",
+                "type": "image",
+                "key": "loading"
+            },
+            {
+                "url": "assets/images/logo.png",
+                "type": "image",
+                "key": "logo"
+            },
+            {
+                "url": "src/prefabs/Logo.js",
+                "type": "script",
+                "key": "Logo"
+            },
+            {
+                "url": "assets/images/saga-logo.png",
+                "type": "image",
+                "key": "saga-logo"
+            },
+            {
+                "url": "assets/images/spade_1.png",
+                "type": "image",
+                "key": "spade_1"
+            },
+            {
+                "url": "assets/images/spade_10.png",
+                "type": "image",
+                "key": "spade_10"
+            },
+            {
+                "url": "assets/images/spade_11.png",
+                "type": "image",
+                "key": "spade_11"
+            },
+            {
+                "url": "assets/images/spade_12.png",
+                "type": "image",
+                "key": "spade_12"
+            },
+            {
+                "url": "assets/images/spade_13.png",
+                "type": "image",
+                "key": "spade_13"
+            },
+            {
+                "url": "assets/images/spade_2.png",
+                "type": "image",
+                "key": "spade_2"
+            },
+            {
+                "url": "assets/images/spade_3.png",
+                "type": "image",
+                "key": "spade_3"
+            },
+            {
+                "url": "assets/images/spade_4.png",
+                "type": "image",
+                "key": "spade_4"
+            },
+            {
+                "url": "assets/images/spade_5.png",
+                "type": "image",
+                "key": "spade_5"
+            },
+            {
+                "url": "assets/images/spade_6.png",
+                "type": "image",
+                "key": "spade_6"
+            },
+            {
+                "url": "assets/images/spade_7.png",
+                "type": "image",
+                "key": "spade_7"
+            },
+            {
+                "url": "assets/images/spade_8.png",
+                "type": "image",
+                "key": "spade_8"
+            },
+            {
+                "url": "assets/images/spade_9.png",
+                "type": "image",
+                "key": "spade_9"
+            },
+            {
+                "url": "assets/images/splash-screen-bg.png",
+                "type": "image",
+                "key": "splash-screen-bg"
+            },
+            {
+                "url": "assets/images/splash-screen-bg-1.png",
+                "type": "image",
+                "key": "splash-screen-bg-1"
+            }
+        ]
+    },
+    "meta": {
+        "app": "Phaser Editor 2D - Asset Pack Editor",
+        "contentType": "phasereditor2d.pack.core.AssetContentType",
+        "url": "https://phasereditor2d.com",
+        "version": 2,
+        "showAllFilesInBlocks": false
+    }
+}
