@@ -42,9 +42,19 @@
                 "key": "GameManager"
             },
             {
+                "url": "src/scenes/Home.js",
+                "type": "sceneFile",
+                "key": "Home"
+            },
+            {
                 "url": "src/scripts/InputManager.js",
                 "type": "script",
                 "key": "InputManager"
+            },
+            {
+                "url": "assets/images/play-button.png",
+                "type": "image",
+                "key": "play-button"
             },
             {
                 "url": "assets/images/redeal.png",

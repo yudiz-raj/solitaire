@@ -28,7 +28,7 @@
                     "type": "Text",
                     "id": "6cce7f2d-e43d-465a-92f6-e7352b7930e3",
                     "label": "text_2",
-                    "x": 509,
+                    "x": 696,
                     "y": 280,
                     "originX": 0.5,
                     "text": "Turn 1",
@@ -50,7 +50,7 @@
                     "texture": {
                         "key": "button"
                     },
-                    "x": 509,
+                    "x": 696,
                     "y": 433
                 },
                 {
@@ -58,7 +58,7 @@
                     "id": "d76cfef9-87c9-4091-b931-4aefa4cf2a96",
                     "label": "txt_time",
                     "scope": "CLASS",
-                    "x": 509,
+                    "x": 696,
                     "y": 339,
                     "originX": 0.5,
                     "text": "00:00",
@@ -81,7 +81,7 @@
                     "texture": {
                         "key": "card_base-2"
                     },
-                    "x": 110,
+                    "x": 166,
                     "y": 364,
                     "scaleX": 1.6,
                     "scaleY": 1.6
@@ -90,7 +90,7 @@
                     "type": "Text",
                     "id": "9f17137f-3494-4d19-837a-b13893e710b4",
                     "label": "text_1",
-                    "x": 110,
+                    "x": 166,
                     "y": 402,
                     "originX": 0.5,
                     "alpha": 0.5,
@@ -115,7 +115,7 @@
                     "texture": {
                         "key": "redeal"
                     },
-                    "x": 110,
+                    "x": 166,
                     "y": 342,
                     "scaleX": 0.2,
                     "scaleY": 0.2,
@@ -133,7 +133,7 @@
                     "texture": {
                         "key": "back_red_1"
                     },
-                    "x": 110,
+                    "x": 166,
                     "y": 364,
                     "scaleX": 1.6,
                     "scaleY": 1.6
@@ -145,7 +145,7 @@
                     "texture": {
                         "key": "card_base-2"
                     },
-                    "x": 310,
+                    "x": 431,
                     "y": 364,
                     "scaleX": 1.6,
                     "scaleY": 1.6
@@ -173,7 +173,7 @@
                     ],
                     "label": "baseCard_0",
                     "useGameObjectName": true,
-                    "x": 710,
+                    "x": 961,
                     "y": 364
                 },
                 {
@@ -185,7 +185,7 @@
                     ],
                     "label": "baseCard_1",
                     "useGameObjectName": true,
-                    "x": 910,
+                    "x": 1226,
                     "y": 364
                 },
                 {
@@ -197,7 +197,7 @@
                     ],
                     "label": "baseCard_2",
                     "useGameObjectName": true,
-                    "x": 1110,
+                    "x": 1491,
                     "y": 364
                 },
                 {
@@ -210,7 +210,7 @@
                     "label": "baseCard_3",
                     "useGameObjectName": true,
                     "scope": "CLASS",
-                    "x": 1310,
+                    "x": 1756,
                     "y": 364
                 }
             ]
@@ -227,7 +227,7 @@
                     "texture": {
                         "key": "card_base-2"
                     },
-                    "x": 110,
+                    "x": 166,
                     "y": 625,
                     "scaleX": 1.6,
                     "scaleY": 1.6
@@ -239,7 +239,7 @@
                     "texture": {
                         "key": "card_base-2"
                     },
-                    "x": 310,
+                    "x": 431,
                     "y": 625,
                     "scaleX": 1.6,
                     "scaleY": 1.6
@@ -251,7 +251,7 @@
                     "texture": {
                         "key": "card_base-2"
                     },
-                    "x": 510,
+                    "x": 696,
                     "y": 625,
                     "scaleX": 1.6,
                     "scaleY": 1.6
@@ -263,7 +263,7 @@
                     "texture": {
                         "key": "card_base-2"
                     },
-                    "x": 710,
+                    "x": 961,
                     "y": 625,
                     "scaleX": 1.6,
                     "scaleY": 1.6
@@ -275,7 +275,7 @@
                     "texture": {
                         "key": "card_base-2"
                     },
-                    "x": 910,
+                    "x": 1226,
                     "y": 625,
                     "scaleX": 1.6,
                     "scaleY": 1.6
@@ -287,7 +287,7 @@
                     "texture": {
                         "key": "card_base-2"
                     },
-                    "x": 1110,
+                    "x": 1491,
                     "y": 625,
                     "scaleX": 1.6,
                     "scaleY": 1.6
@@ -299,7 +299,7 @@
                     "texture": {
                         "key": "card_base-2"
                     },
-                    "x": 1310,
+                    "x": 1756,
                     "y": 625,
                     "scaleX": 1.6,
                     "scaleY": 1.6
@@ -435,6 +435,6 @@
         "app": "Phaser Editor 2D - Scene Editor",
         "url": "https://phasereditor2d.com",
         "contentType": "phasereditor2d.core.scene.SceneContentType",
-        "version": 4
+        "version": 5
     }
 }

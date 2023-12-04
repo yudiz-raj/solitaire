@@ -19,7 +19,13 @@ class InputManager {
                 ease: 'bounce',
                 duration: 100,
                 onComplete: () => {
-                    this.oScene.scene.restart();
+                    if (button.texture.key == "play-button") {
+                        this.oScene.scene.stop("Home");
+                        this.oScene.scene.start("Solitaire");
+                    }
+                    else {
+                        this.oScene.scene.restart();
+                    }
                 }
             })
         });

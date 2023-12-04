@@ -10,8 +10,8 @@ class Card extends Phaser.GameObjects.Container {
 
 		// card
 		const card = scene.add.image(0, 0, "spade_1");
-		card.scaleX = 0.45;
-		card.scaleY = 0.45;
+		card.scaleX = 0.46;
+		card.scaleY = 0.46;
 		this.add(card);
 
 		this.card = card;

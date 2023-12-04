@@ -24,19 +24,19 @@ class Solitaire extends Phaser.Scene {
 		container_bg.add(background);
 
 		// text_2
-		const text_2 = this.add.text(509, 280, "", {});
+		const text_2 = this.add.text(696, 280, "", {});
 		text_2.setOrigin(0.5, 0);
 		text_2.text = "Turn 1";
 		text_2.setStyle({ "color": "#001E82", "fontFamily": "BowlbyOne", "fontSize": "40px", "stroke": "#000" });
 		container_bg.add(text_2);
 
 		// btn_play_again
-		const btn_play_again = this.add.image(509, 433, "button");
+		const btn_play_again = this.add.image(696, 433, "button");
 		btn_play_again.setInteractive(new Phaser.Geom.Rectangle(15, 30, 170, 60), Phaser.Geom.Rectangle.Contains);
 		container_bg.add(btn_play_again);
 
 		// txt_time
-		const txt_time = this.add.text(509, 339, "", {});
+		const txt_time = this.add.text(696, 339, "", {});
 		txt_time.setOrigin(0.5, 0);
 		txt_time.text = "00:00";
 		txt_time.setStyle({ "color": "#001E82", "fontFamily": "BowlbyOne", "fontSize": "40px", "stroke": "#000" });
@@ -46,13 +46,13 @@ class Solitaire extends Phaser.Scene {
 		const container_body = this.add.container(0, 0);
 
 		// delt_base_0
-		const delt_base_0 = this.add.image(110, 364, "card_base-2");
+		const delt_base_0 = this.add.image(166, 364, "card_base-2");
 		delt_base_0.scaleX = 1.6;
 		delt_base_0.scaleY = 1.6;
 		container_body.add(delt_base_0);
 
 		// text_1
-		const text_1 = this.add.text(110, 402, "", {});
+		const text_1 = this.add.text(166, 402, "", {});
 		text_1.setOrigin(0.5, 0);
 		text_1.alpha = 0.5;
 		text_1.alphaTopLeft = 0.5;
@@ -64,7 +64,7 @@ class Solitaire extends Phaser.Scene {
 		container_body.add(text_1);
 
 		// btn_redeal
-		const btn_redeal = this.add.image(110, 342, "redeal");
+		const btn_redeal = this.add.image(166, 342, "redeal");
 		btn_redeal.scaleX = 0.2;
 		btn_redeal.scaleY = 0.2;
 		btn_redeal.alpha = 0.5;
@@ -75,13 +75,13 @@ class Solitaire extends Phaser.Scene {
 		container_body.add(btn_redeal);
 
 		// delt_card
-		const delt_card = this.add.image(110, 364, "back_red_1");
+		const delt_card = this.add.image(166, 364, "back_red_1");
 		delt_card.scaleX = 1.6;
 		delt_card.scaleY = 1.6;
 		container_body.add(delt_card);
 
 		// delt_base_1
-		const delt_base_1 = this.add.image(310, 364, "card_base-2");
+		const delt_base_1 = this.add.image(431, 364, "card_base-2");
 		delt_base_1.scaleX = 1.6;
 		delt_base_1.scaleY = 1.6;
 		container_body.add(delt_base_1);
@@ -95,22 +95,22 @@ class Solitaire extends Phaser.Scene {
 		const container_base_cards = this.add.container(0, 0);
 
 		// baseCard_0
-		const baseCard_0 = new BaseCard(this, 710, 364);
+		const baseCard_0 = new BaseCard(this, 961, 364);
 		baseCard_0.name = "baseCard_0";
 		container_base_cards.add(baseCard_0);
 
 		// baseCard_1
-		const baseCard_1 = new BaseCard(this, 910, 364);
+		const baseCard_1 = new BaseCard(this, 1226, 364);
 		baseCard_1.name = "baseCard_1";
 		container_base_cards.add(baseCard_1);
 
 		// baseCard_2
-		const baseCard_2 = new BaseCard(this, 1110, 364);
+		const baseCard_2 = new BaseCard(this, 1491, 364);
 		baseCard_2.name = "baseCard_2";
 		container_base_cards.add(baseCard_2);
 
 		// baseCard_3
-		const baseCard_3 = new BaseCard(this, 1310, 364);
+		const baseCard_3 = new BaseCard(this, 1756, 364);
 		baseCard_3.name = "baseCard_3";
 		container_base_cards.add(baseCard_3);
 
@@ -118,43 +118,43 @@ class Solitaire extends Phaser.Scene {
 		const container_bg_cards = this.add.container(0, 0);
 
 		// card_base_0
-		const card_base_0 = this.add.image(110, 625, "card_base-2");
+		const card_base_0 = this.add.image(166, 625, "card_base-2");
 		card_base_0.scaleX = 1.6;
 		card_base_0.scaleY = 1.6;
 		container_bg_cards.add(card_base_0);
 
 		// card_base_1
-		const card_base_1 = this.add.image(310, 625, "card_base-2");
+		const card_base_1 = this.add.image(431, 625, "card_base-2");
 		card_base_1.scaleX = 1.6;
 		card_base_1.scaleY = 1.6;
 		container_bg_cards.add(card_base_1);
 
 		// card_base_2
-		const card_base_2 = this.add.image(510, 625, "card_base-2");
+		const card_base_2 = this.add.image(696, 625, "card_base-2");
 		card_base_2.scaleX = 1.6;
 		card_base_2.scaleY = 1.6;
 		container_bg_cards.add(card_base_2);
 
 		// card_base_3
-		const card_base_3 = this.add.image(710, 625, "card_base-2");
+		const card_base_3 = this.add.image(961, 625, "card_base-2");
 		card_base_3.scaleX = 1.6;
 		card_base_3.scaleY = 1.6;
 		container_bg_cards.add(card_base_3);
 
 		// card_base_4
-		const card_base_4 = this.add.image(910, 625, "card_base-2");
+		const card_base_4 = this.add.image(1226, 625, "card_base-2");
 		card_base_4.scaleX = 1.6;
 		card_base_4.scaleY = 1.6;
 		container_bg_cards.add(card_base_4);
 
 		// card_base_5
-		const card_base_5 = this.add.image(1110, 625, "card_base-2");
+		const card_base_5 = this.add.image(1491, 625, "card_base-2");
 		card_base_5.scaleX = 1.6;
 		card_base_5.scaleY = 1.6;
 		container_bg_cards.add(card_base_5);
 
 		// card_base_6
-		const card_base_6 = this.add.image(1310, 625, "card_base-2");
+		const card_base_6 = this.add.image(1756, 625, "card_base-2");
 		card_base_6.scaleX = 1.6;
 		card_base_6.scaleY = 1.6;
 		container_bg_cards.add(card_base_6);
@@ -329,19 +329,19 @@ class Solitaire extends Phaser.Scene {
 				const cardName = i == j ? this.oGameManager.getRandomCard(this.aTotalCards) : "back_red_0";
 				if (i == j) {
 					const backCardName = "back_red_0";
-					backCard = new Card(this, 110 + (200 * i), 625 + (45 * j));
+					backCard = new Card(this, 166 + (265 * i), 625 + (45 * j));
 					backCard.setCard(backCardName);
 					backCard.setName(backCardName);
 					backCard.setSize(180, 260);
-					backCard.setScale(3.5);
+					backCard.setScale(3.45);
 					cardContainer[i].add(backCard);
 				}
-				const card = new Card(this, 110 + (200 * i), 625 + (45 * j));
+				const card = new Card(this, 166 + (265 * i), 625 + (45 * j));
 				card.setCard(cardName);
 				card.setName(cardName);
 				card.setSize(180, 260);
 				if (cardName == "back_red_0") {
-					card.setScale(3.5);
+					card.setScale(3.45);
 				}
 				if (cardName != "back_red_0") {
 					card.setScale(0, 1);
@@ -427,7 +427,7 @@ class Solitaire extends Phaser.Scene {
 			if (this.isCardDragging) {
 				this.isCardDragging = false;
 				this.isCardDraggable = false;
-				this.checkContainer(pointer.x, pointer.y);
+				this.checkContainer(pointer.x, pointer.y, gameObject);
 			} else {
 				gameObject.parentContainer.each((card) => this.lastContainer.add(card));
 			}
@@ -444,28 +444,28 @@ class Solitaire extends Phaser.Scene {
 		gameObject.x = x;
 		gameObject.y = y;
 	}
-	checkContainer = (x, y) => {
+	checkContainer = (x, y, gameObject) => {
 		if (y > 450) {
 			switch (true) {
-				case (x >= 0 && x < 200):
+				case (x >= 34 && x < 293):
 					this.checkLastCard(this.container_piles_main.list[0], 0);
 					break;
-				case (x >= 200 && x < 400):
+				case (x >= 293 && x < 556):
 					this.checkLastCard(this.container_piles_main.list[1], 1);
 					break;
-				case (x >= 400 && x < 600):
+				case (x >= 556 && x < 823):
 					this.checkLastCard(this.container_piles_main.list[2], 2);
 					break;
-				case (x >= 600 && x < 800):
+				case (x >= 823 && x < 1085):
 					this.checkLastCard(this.container_piles_main.list[3], 3);
 					break;
-				case (x >= 800 && x < 1000):
+				case (x >= 1085 && x < 1355):
 					this.checkLastCard(this.container_piles_main.list[4], 4);
 					break;
-				case (x >= 1000 && x < 1200):
+				case (x >= 1355 && x < 1616):
 					this.checkLastCard(this.container_piles_main.list[5], 5);
 					break;
-				case (x >= 1200 && x < 1400):
+				case (x >= 1616 && x < 1900):
 					this.checkLastCard(this.container_piles_main.list[6], 6);
 					break;
 				default:
@@ -474,16 +474,16 @@ class Solitaire extends Phaser.Scene {
 			}
 		} else {
 			switch (true) {
-				case (x >= 600 && x < 800):
+				case (x >= 823 && x < 1085):
 					this.checkPureCards(this.container_pure_sequence.list[0], 0);
 					break;
-				case (x >= 800 && x < 1000):
+				case (x >= 1085 && x < 1355):
 					this.checkPureCards(this.container_pure_sequence.list[1], 1);
 					break;
-				case (x >= 1000 && x < 1200):
+				case (x >= 1355 && x < 1616):
 					this.checkPureCards(this.container_pure_sequence.list[2], 2);
 					break;
-				case (x >= 1200 && x < 1400):
+				case (x >= 1616 && x < 1900):
 					this.checkPureCards(this.container_pure_sequence.list[3], 3);
 					break;
 				default:
@@ -495,6 +495,15 @@ class Solitaire extends Phaser.Scene {
 	backToPile = () => {
 		this.container_top.each(card => this.lastContainer.add(card))
 		this.arrangeCards(this.lastContainer, parseInt(this.lastContainer.name.match(/\d+/)[0]));
+	}
+	cardPlaceAnimation = (container) => {
+		this.tweens.add({
+			targets: container.list,
+			ease: 'elastic-out',
+			y: { from: container.list.y, to: container.list.y + 5 },
+			duration: 20,
+			yoyo: true
+		});
 	}
 	checkLastCard = (container, index) => {
 		if (container.length) {
@@ -511,6 +520,7 @@ class Solitaire extends Phaser.Scene {
 					this.container_top.each(card => container.add(card));
 					this.arrangeCards(container, index);
 					this.openLastCard(this.lastContainer);
+					this.cardPlaceAnimation(container);
 				}
 			} else {
 				this.backToPile();
@@ -523,11 +533,13 @@ class Solitaire extends Phaser.Scene {
 				this.container_top.each(card => container.add(card))
 				this.arrangeCards(container, index);
 				this.openLastCard(this.lastContainer);
+				this.cardPlaceAnimation(container);
 			} else {
 				this.backToPile();
 				this.showToast(this.oToasts.highcard);
 			}
 		}
+		this.arrangeCards(this.lastContainer, parseInt(this.lastContainer.name.match(/\d+/)[0]));
 	}
 	checkPureCards = (container, index) => {
 		const dragCardNumber = parseInt(this.container_top.list[0].name.match(/\d+/)[0]);
@@ -539,6 +551,7 @@ class Solitaire extends Phaser.Scene {
 					this.container_top.each(card => container.add(card))
 					this.arrangeCards(container, index);
 					this.openLastCard(this.lastContainer);
+					this.cardPlaceAnimation(container);
 				} else {
 					this.backToPile();
 					this.showToast(this.oToasts.highcard);
@@ -561,12 +574,13 @@ class Solitaire extends Phaser.Scene {
 			this.backToPile();
 			this.showToast(this.oToasts.samesuit);
 		}
+		this.arrangeCards(this.lastContainer, parseInt(this.lastContainer.name.match(/\d+/)[0]));
 	}
 	arrangeCards = (container, index) => {
 		if (index == 24) {
-			this.container_delt_cards_24.each(card => card.setPosition(310, 364));
+			this.container_delt_cards_24.each(card => card.setPosition(431, 364));
 		} else if (container.name.includes("container_pure_piles")) {
-			container.each(card => card.setPosition(710 + (200 * index), 364));
+			container.each(card => card.setPosition(961 + (265 * index), 364));
 			if (container.list.length == 13) {
 				this.nTotalSequence++;
 				if (this.nTotalSequence == 4) this.fireWorks();
@@ -574,11 +588,24 @@ class Solitaire extends Phaser.Scene {
 		}
 		else {
 			let gap = 45;
-			if (container.list.length > 13) gap = 38;
-			if (container.list.length >= 15) gap = 35;
-			if (container.list.length >= 17) gap = 30;
+			if (container.list.length >= 13) gap = 40;
+			if (container.list.length >= 15) gap = 38;
+			if (container.list.length >= 16) gap = 36;
+			if (container.list.length >= 17) gap = 34;
+			if (container.list.length >= 18) gap = 32;
+			if (container.list.length >= 19) gap = 30;
+			if (container.list.length >= 20) gap = 29;
+			if (container.list.length >= 21) gap = 28;
+			if (container.list.length >= 22) gap = 27;
+			if (container.list.length >= 23) gap = 26;
+			if (container.list.length >= 24) gap = 25;
+			if (container.list.length >= 25) gap = 24;
+			if (container.list.length >= 26) gap = 23;
+			if (container.list.length >= 28) gap = 22;
+			if (container.list.length >= 29) gap = 20;
+			if (container.list.length >= 30) gap = 18;
 			container.list.forEach((card, i) => {
-				card.x = 110 + (200 * index);
+				card.x = 166 + (265 * index);
 				card.y = 625 + (gap * i);
 			});
 		}
@@ -622,7 +649,7 @@ class Solitaire extends Phaser.Scene {
 			onComplete: () => {
 				this.tweens.add({
 					targets: card,
-					x: 310,
+					x: 431,
 					duration: 150,
 					onComplete: () => {
 						this.delt_card.setInteractive();
@@ -636,7 +663,7 @@ class Solitaire extends Phaser.Scene {
 		this.delt_card.disableInteractive();
 		const cardName = this.oGameManager.getFirstCard(this.aDeltCards);
 		this.aDeltedCards.push(cardName);
-		const card = new Card(this, 110, 364);
+		const card = new Card(this, 166, 364);
 		card.setCard(cardName);
 		card.setName(cardName);
 		card.setSize(180, 260);

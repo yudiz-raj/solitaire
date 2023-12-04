@@ -37,92 +37,6 @@
             "y": 540
         },
         {
-            "type": "Container",
-            "id": "49fa0037-5962-473c-909f-b663481a3ad9",
-            "label": "container_cards",
-            "scope": "CLASS",
-            "list": [
-                {
-                    "type": "Image",
-                    "id": "63ace129-aa63-4b17-94c3-e40e924aa1a0",
-                    "label": "diamond_1",
-                    "texture": {
-                        "key": "diamond_1"
-                    },
-                    "x": 996,
-                    "y": 626,
-                    "scaleX": 0.63,
-                    "scaleY": 0.63,
-                    "angle": -138
-                },
-                {
-                    "type": "Image",
-                    "id": "007b4edb-f292-48b2-9f18-6e45443997f3",
-                    "label": "heart_11",
-                    "texture": {
-                        "key": "heart_11"
-                    },
-                    "x": 1001,
-                    "y": 617,
-                    "scaleX": 0.63,
-                    "scaleY": 0.63,
-                    "angle": -42
-                },
-                {
-                    "type": "Image",
-                    "id": "df6b47a0-d810-4d4e-b3c8-8b0477df4c65",
-                    "label": "spade_7",
-                    "texture": {
-                        "key": "spade_7"
-                    },
-                    "x": 888,
-                    "y": 623,
-                    "scaleX": 0.63,
-                    "scaleY": 0.63,
-                    "angle": 42
-                },
-                {
-                    "type": "Image",
-                    "id": "5decc9fa-5239-4047-a456-bd1f9e346c8b",
-                    "label": "heart_6",
-                    "texture": {
-                        "key": "heart_6"
-                    },
-                    "x": 977,
-                    "y": 616,
-                    "scaleX": 0.63,
-                    "scaleY": 0.63,
-                    "angle": 45
-                },
-                {
-                    "type": "Image",
-                    "id": "c707714f-178d-4e61-af34-bdd2c0261ee6",
-                    "label": "heart",
-                    "texture": {
-                        "key": "heart_6"
-                    },
-                    "x": 967,
-                    "y": 621,
-                    "scaleX": 0.63,
-                    "scaleY": 0.63,
-                    "angle": -31
-                },
-                {
-                    "type": "Image",
-                    "id": "8ca854e5-2d5f-43a0-b59d-570c5e31349f",
-                    "label": "spade_13",
-                    "texture": {
-                        "key": "spade_13"
-                    },
-                    "x": 951,
-                    "y": 625,
-                    "scaleX": 0.63,
-                    "scaleY": 0.63,
-                    "angle": 140
-                }
-            ]
-        },
-        {
             "type": "Image",
             "id": "b309aef3-535f-484a-9273-a3156175d5a5",
             "label": "loading",
@@ -163,6 +77,6 @@
         "app": "Phaser Editor 2D - Scene Editor",
         "url": "https://phasereditor2d.com",
         "contentType": "phasereditor2d.core.scene.SceneContentType",
-        "version": 4
+        "version": 5
     }
 }
