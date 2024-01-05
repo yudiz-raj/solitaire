@@ -517,10 +517,10 @@ class Solitaire extends Phaser.Scene {
 					this.showToast(this.oToasts.drop);
 				} else {
 					if (this.container_top.list.length == 1) this.checkDeltCard(this.container_top.list[0].name);
+					this.cardPlaceAnimation(this.container_top);
 					this.container_top.each(card => container.add(card));
 					this.arrangeCards(container, index);
 					this.openLastCard(this.lastContainer);
-					this.cardPlaceAnimation(container);
 				}
 			} else {
 				this.backToPile();

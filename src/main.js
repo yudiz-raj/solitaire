@@ -6,6 +6,7 @@ window.addEventListener('load', function () {
 		height: 1080,
 		type: Phaser.AUTO,
 		transparent: true,
+		parent: "game-division",
 		scale: {
 			mode: Phaser.Scale.FIT,
 			autoCenter: Phaser.Scale.CENTER_BOTH
